@@ -9,7 +9,7 @@ Requires pcmanfm and libfm version 1.2.0 and above. Also depends on Imagemagick.
 
 On Ubuntu 16.04 you may install the build dependencies using the following command:
 ```
-sudo apt-get install libtool-bin libmagickcore-dev libfm-dev
+sudo apt-get install libtool-bin libmagickcore-dev
 ```
 
 You must have `Magick-config` binary in your `$PATH` to build the module. On Ubuntu 16.04 with `libmagickcore-dev` you should run make the following way:
